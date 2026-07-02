@@ -1,24 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="icon" type="image/x-icon" href="favicon.png">
-    </head> 
-    <title>About Me</title>
-    <body>
-        <div class="topnav">
-  <a class="active" href="about.html">About</a>
-  <a href="index.html">Home</a>
-  <a href="socials.html">Socials</a>
-  <a href="projects.html">Projects</a>
-       </div>
-       <h1>About Me</h1>
-       <p>i am 13 years old. my name is bas</p>
-       <p>i like to code and make stuff</p>
-       <p>Always Open Source</p>
-       <br>
-       <p>Python 40%</p>
-       <p>Html 15%</p>
-       <p>lua 2%</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bas Woertman | About</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">BassieWebPersona</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a class="active" href="about.html">About</a>
+      <a href="socials.html">Socials</a>
+    </div>
+  </nav>
+
+  <main class="container page">
+    <section class="page-header">
+      <p class="eyebrow">About me</p>
+      <h1>Hi, I’m Bas.</h1>
+      <p>
+        I like coding, making websites, and building cool things. I enjoy learning by
+        creating projects and sharing them online.
+      </p>
+    </section>
+
+    <section class="grid two-column">
+      <article class="card">
+        <h2>Things I like</h2>
+        <ul class="list">
+          <li>Making websites</li>
+          <li>Learning programming</li>
+          <li>Trying new ideas</li>
+          <li>Open source projects</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Skills I’m learning</h2>
+        <div class="skill">
+          <span>Python</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 40%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 15%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Lua</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 2%;"></div></div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
 </html>

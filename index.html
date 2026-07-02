@@ -1,23 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="icon" type="image/x-icon" href="favicon.png">
-    </head> 
-    <title>Main Page</title>
-    <body>
-    <div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="socials.html">Socials</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bas Woertman | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">BassieWebPersona</div>
+    <div class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="socials.html">Socials</a>
     </div>
-    <header>
-    <h1>Hello! This Is My Site!!</h1>
-    </header>
-    <img
-    src="https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750"
-    width="250px"
-    />
-    </body>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I’m Bas</p>
+        <h1>I like building websites, coding projects, and cool stuff on the internet.</h1>
+        <p class="hero-description">
+          This is my personal website where I share what I make, what I am learning,
+          and where you can find my projects.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="projects.html">See my projects</a>
+          <a class="button secondary" href="about.html">Read about me</a>
+        </div>
+      </div>
+
+      <div class="card hero-card">
+        <img
+          src="https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750"
+          alt="Profile image"
+          class="profile-image"
+        />
+      </div>
+    </section>
+
+    <section class="grid two-column">
+      <article class="card">
+        <h2>What I do</h2>
+        <p>I enjoy coding, learning new things, and making projects that are fun and useful.</p>
+      </article>
+
+      <article class="card">
+        <h2>What’s on this site</h2>
+        <p>You can explore my projects, learn more about me, and find ways to contact me.</p>
+      </article>
+    </section>
+  </main>
+</body>
 </html>
